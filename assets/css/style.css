@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Sets the color of the background of the whole site */
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; 
 }
 
+/* Applies formatting and color to the header and nav bar at the top of the page */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +26,7 @@ h1 {
     color: #d9dcd6;
 }
 
+/* Formats the nav tools to be side by side and spaced properly */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,6 +34,7 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
 
 li {
     display: inline-block;
@@ -46,6 +50,7 @@ p {
     font-size: 16px;
 }
 
+/* Contains and formats the large image directly below the header */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,16 +60,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-#float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Formats the 3 boxes conataining our primary information */
 main{
     width: 75%;
     display: inline-block;
@@ -76,6 +72,7 @@ main h2{
     font-size: 36px;
 }
 
+/* Provides individual formatting and color to the information within the 3 main boxes within the sections of the main element */
 .primary-content{
     margin-bottom: 20px;
     padding: 50px;
@@ -85,10 +82,22 @@ main h2{
     color: #ffffff;
 }
 
+/* Formats the images within the main elements sections */
 .primary-content img{
     max-height: 200px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+#float-right {
+    float: right;
+    margin-left: 25px;
+}         
+
+/* Provides color and formatting to the additional aside information on the right side of the screen */
 aside{
     margin-right: 20px;
     padding: 20px;
@@ -110,12 +119,14 @@ h3{
     text-align: center;
 }
 
+/* Formats the 3 images within the aside */
 aside img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Formats the additional text within the footer at the bottom of the screen */
 footer {
     padding: 30px;
     clear: both;
