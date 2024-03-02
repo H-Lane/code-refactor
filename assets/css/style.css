@@ -46,9 +46,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
 
 /* Contains and formats the large image directly below the header */
 .hero {
@@ -70,6 +67,11 @@ main{
 main h2{
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+
+p {
+    font-size: 16px;
 }
 
 /* Provides individual formatting and color to the information within the 3 main boxes within the sections of the main element */
@@ -134,6 +136,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+h4 {
     font-size: 20px;
 }
