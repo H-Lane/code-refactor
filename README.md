@@ -7,8 +7,6 @@ The purpose of this project was to refactor a source code to meet modern day acc
 
 ## Table of Contents
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
 - [Original Code](#original-code)
 - [Code Source](#code-source-within-this-repo)
 - [Usage](#usage)
